@@ -112,7 +112,7 @@ resource "aws_instance" "web" {
   }
   # tags
   tags {
-    Name = "test001-web"
+    Name = "prod001-web"
     owner = "vinnie@hashicorp.com"
     TTL = 1
    }
