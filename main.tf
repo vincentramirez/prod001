@@ -5,6 +5,7 @@ module "vpc" {
   version = "1.44.0"
 
   cidr = "10.0.0.0/16"
+  region = "us-east-2"
   azs = ["us-east-2a", "us-east-2b"]
   private_subnets = ["10.0.0.1/24", "10.0.0.2/24"]
   create_vpc = "true"
